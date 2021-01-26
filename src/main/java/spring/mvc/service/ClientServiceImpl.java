@@ -30,4 +30,17 @@ public class ClientServiceImpl implements ClientService {
     public void saveClient(Client client) {
        clientDAO.saveClient(client);
     }
+
+    @Transactional
+    @Override
+    public Client getClient(int id) {
+        return clientDAO.getClient(id);
+    }
+
+    @Transactional
+    @Override
+    public void deleteClient(int id) {
+        clientDAO.deleteClient(id);
+
+    }
 }
