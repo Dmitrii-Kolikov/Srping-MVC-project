@@ -8,9 +8,13 @@
 <br>
 
 <form:form action="saveClient" modelAttribute="client">
+
+     <form:hidden path="id"/>
+
     Name <form:input path="name"/>
     <br><br>
     Phone Number <form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber"/>
         <br><br>
 
      Master <form:select path = "master" >
@@ -27,3 +31,4 @@
 </body>
 
 </html>
+
