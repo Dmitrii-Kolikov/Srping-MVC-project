@@ -4,11 +4,6 @@ JPA (Java Persistence API) –  это стандартная специфика
 Hibernate – самая популярная реализация спецификации JPA.
 Таким образом JPA описывает правила, а Hibernate реализует их.
 
-Валидация форм Spring MVC
-Java Standard Bean Validation API – это спецификация, которая описывает правила валидации.
-Hibernate Validator – реализация правил, описанных в Java Standard Bean Validation API.
-Зависимость (Hibernate Validator Engine Relocation Artifact)
-
 1) Этап
 - Создаем наш проект Spring MVC + Hibernate
 - Конфигурация приложения MVC + Hibernate
@@ -35,4 +30,12 @@ Hibernate Validator – реализация правил, описанных в
 - чтобы проверить нашу работу с Базой Данных, добавим нельсколько полей нашу в таблицу данных и отобразим их на экран.
 
 6) Этап добавление наших клиентов:
+- Создадим наш метод для добавление клиентов
+- Сделаем правила валидации для некоторых полей. 
+
+  Валидация форм Spring MVC:
+ Java Standard Bean Validation API – это спецификация, которая описывает правила валидации.
+ Hibernate Validator – реализация правил, описанных в Java Standard Bean Validation API.
+ Зависимость:dependency (Hibernate Validator Engine Relocation Artifact)
+
 
